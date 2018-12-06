@@ -1,0 +1,239 @@
+/*body{
+    background: url(cover.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}*/
+table td,th,tr{
+    border: 1px solid black;
+    margin: 4px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.input_values
+{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid crimson;
+    background: transparent;
+    width: 300px;
+}
+.inp{
+    max-width:60%;
+    max-height:30%;
+
+}
+img
+{
+    height:100%;
+    width: 100%;
+}
+.background
+{
+    position: relative;
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    filter: blur(4px);
+
+}
+.foreground
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100% ;
+    height: 100%;
+    background-color:rgba(0,0,0,0) ;
+}
+#rectbox
+{
+    position: absolute;
+    width:400px;
+    height:300px;
+    z-index:15 ;
+    top: 45%;
+    left: 45%;
+
+    margin:-100px 0 0 -150px ;
+    background: #ecf0f1 ;
+    border-color: black;
+    border-radius: 25px;
+}
+::placeholder
+{
+    color: white;
+    opacity: 0.1;
+}
+#rectbox1
+{
+    position: absolute;
+    width:500px;
+    height:400px;
+    z-index:15 ;
+    top: 45%;
+    left: 42.5%;
+
+    margin:-100px 0 0 -150px ;
+    background-color:rgba(90,89,86,0.321);
+    border-color: black;
+    color:white;
+    overflow: auto;
+}
+#rectbox2
+{
+    position: absolute;
+    width:500px;
+    height:600px;
+    padding-left:15px;
+    z-index:15 ;
+    top: 30%;
+    left: 50%;
+
+    margin:0px auto;
+    background-color:rgba(163,151, 152,0.5);
+    border-color: black;
+    color:white;
+}
+#div_line
+{
+ width:-moz-fit-content;
+    height:10px;
+    padding: 3px;
+    background:#474747;
+    left:0%;
+    top:15%;
+}
+::placeholder
+{
+    color:magenta;
+}
+.submit-btn
+{
+    padding-left: 15px;
+    width: 100px;
+    height:40px;
+    background-color: #f9690e;
+    opacity: 0.9;
+    text-decoration-color: white ;
+
+}
+.submit-btn2
+{
+    padding-top: 5px;
+    margin-left: 15%;
+    width: 80px;
+    height:40px;
+    background-color: lawngreen;
+    opacity: 0.9;
+    text-align: center;
+    text-decoration-color: white ;
+    /*float: left;*/
+}
+.align
+{
+    font-size: 15px;
+    color: red;
+}
+.textvalues
+{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    outline-style: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    width: 300px;
+    margin-left: 50px;
+    color: white;
+}
+.textvalues::placeholder
+{
+    color: white;
+    opacity: 0.9;
+}
+.submit-btn1
+{
+
+    width: 100px;
+    height:70px;
+    padding-top:5%;
+    background-color:lawngreen;
+    opacity: 0.9;
+    text-decoration-color: white ;
+    text-align: center;
+}
+
+.nav-menu
+{
+    top:0;
+    left:0;
+    width:available;
+    height:10%;
+    color:#474747;
+}
+#title0
+{
+    top:10%;
+    left:40%;
+    text-align: center;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+    width: 250px;
+    height:250px;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn1{
+    position: absolute;
+
+    top: 85%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.container .btn2{
+    position: absolute;
+
+    top: 85%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+#del_box
+{
+    width:400px;
+    height:300px;
+    margin:0px auto;
+    border:2px black dot-dash;
+    padding: 3px 3px 3px 3px;
+}

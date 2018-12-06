@@ -1,0 +1,134 @@
+body{
+    font-family: Verdana;
+    font-size: 14px;
+    color: #444;
+}
+h1,h2{margin-bottom:15px;}
+h1{font-size:18px;}
+h2
+{
+ font-size: 16px;
+}
+#container{
+    width: 680px;
+    margin:150px auto;
+    background-color: #eee;
+    padding:0;
+    overflow:hidden;
+
+}
+#main
+{
+  width:490px;
+    left: 0;
+    top: 0;
+}
+#main table
+{
+    width:580px;
+}
+#main table th
+{
+    padding: 10px;
+    background-color: #48577d;
+    color: #fff;
+    text-align:left;
+}
+#main td
+{
+    text-align:center;
+    border:1px #000022 dotted;
+}
+#main tr
+{
+    border-bottom: 1px #000022 solid;
+}
+#sidebar
+{
+    width:200px;
+    float:left;
+    top:35%;
+    right:5%;
+}
+.input_values
+{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid crimson;
+    background: transparent;
+    width: 300px;
+}
+#rectbox
+{
+    position: absolute;
+    width:400px;
+    height:300px;
+    z-index:15 ;
+    top: 45%;
+    left: 45%;
+
+    margin:-100px 0 0 -150px ;
+    background: #ecf0f1 ;
+    border-color: black;
+}
+.submit-btn
+{
+
+    width: 100px;
+    height:40px;
+    background-color: #8e979c;
+    opacity: 0.9;
+    text-decoration-color: white ;
+    right:0;
+    float: right;
+}
+.navbar-main
+{
+    background-color: #000022;
+    width: 100%;
+    top:0;
+
+}
+#chk_btn
+{
+    width:100px;
+    height:40px;
+    background-color: #f9690e;
+    font-size: 15px;
+    color: #000;
+    float: left;
+}
+#update
+{
+    width:100px;
+    height:40px;
+    background-color: #f9690e;
+    font-size: 15px;
+    color: #000;
+}
+#addtocart
+{
+    width: 100px;
+    height:35px;
+    background-color:#00cd00;
+    font-size: 15px;
+    color: black;
+}
+#btn{
+    margin-bottom: 5px;
+    width:200px;
+    height: 25px;
+    border-radius:5px;
+    background-color: tomato;
+}
+#submit-btn
+{
+
+    width: 100px;
+    height:40px;
+    background-color: #8e979c;
+    opacity: 0.9;
+    text-decoration-color: white ;
+    right:100%;
+     top:100%;
+}
